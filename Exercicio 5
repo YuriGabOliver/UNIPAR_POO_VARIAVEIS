@@ -1,4 +1,7 @@
- String QuantidadeProduto1 = "10";
+public class ControleEstoque {
+    public static void main(String[] args) {
+
+String QuantidadeProduto1 = "10";
        Double PrecoProduto1 = 70.00;
         String QuantidadeProduto2 = "10";
       Double PrecoProduto2 = 2500.00;
