@@ -4,7 +4,7 @@ public class ControleEstoque {
         
        
         String QuantidadeProduto = "10";
-        Double PrecoProduto = 29,99;
+        Double PrecoProduto = 29.99;
         
     
         String MarcaProduto;
