@@ -1,1 +1,24 @@
+ String QuantidadeProduto1 = "10";
+       Double PrecoProduto1 = 70.00;
+        String QuantidadeProduto2 = "10";
+      Double PrecoProduto2 = 2500.00;
+    String QuantidadeProduto3 = "10";
+        Double PrecoProduto3 = 1500.00;
+        
 
+        String NomeProduto1 = "Fone de Ouvido Bluetooth";
+        String NomeProduto2 = "Laptop";
+        String NomeProduto3 = "SmartPhone";
+        
+        System.out.println("Estoque:");
+        System.out.println("Nome: " + NomeProduto1);
+        System.out.println("Preco: R$" + PrecoProduto1);
+        System.out.println("Quantidade em estoque: " + QuantidadeProduto1);
+        System.out.println("Nome: " + NomeProduto2);
+        System.out.println("Preco: R$" + PrecoProduto2);
+        System.out.println("Quantidade em estoque: " + QuantidadeProduto2);
+       System.out.println("Nome: " + NomeProduto3);
+        System.out.println("Preco: R$" + PrecoProduto3);
+        System.out.println("Quantidade em estoque: " + QuantidadeProduto3); 
+    }
+}
