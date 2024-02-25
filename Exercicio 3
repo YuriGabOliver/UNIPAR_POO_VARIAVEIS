@@ -1,1 +1,23 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+        
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.print("Nome: ");
+         String NomeAluno = scanner.nextLine();
+        System.out.print("Idade: ");
+        String IdadeAluno = scanner.nextLine();
+
+       
+       
+
+
+        scanner.close();
+        System.out.println(NomeAluno);
+        System.out.println(IdadeAluno);
+    }
+}
 
