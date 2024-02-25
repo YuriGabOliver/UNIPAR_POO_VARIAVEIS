@@ -1,23 +1,23 @@
 import java.util.Scanner;
 public class FazerMedia {
     public static void main(String[] args){
-        
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner= new Scanner(System.in);
 
-
-        System.out.print("Nome: ");
-         String NomeAluno = scanner.nextLine();
-        System.out.print("Idade: ");
-        String IdadeAluno = scanner.nextLine();
-
-       
-       
-
+        System.out.print("Nome do Aluno: ");
+        String Nome = scanner.nextLine();
+        System.out.print ("Idade do Aluno: ");
+        String Idade = scanner.nextLine();
+        System.out.print("Nota da Prova 1: ");
+        Double Nota1 = scanner.nextDouble();
+        System.out.print("Nota da Prova 2: ");
+        Double Nota2 = scanner.nextDouble();
 
         scanner.close();
-        System.out.println(NomeAluno);
-        System.out.println(IdadeAluno);
+        System.out.println("Nome: " + Nome);
+        System.out.println("Idade: " + Idade);
+        System.out.println("Media final: " + (Nota1 + Nota2)/2);
+
+
     }
 }
-
