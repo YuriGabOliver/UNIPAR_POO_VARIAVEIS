@@ -3,3 +3,7 @@ public class ControleEstoque {
 String ImpostodeRenda;
 Int BlazeDinheiroFacil;
 Double NumeroMegaSena;
+String VoltaBrunaAssMas;
+Int AnosSolteiro;
+String AdrianoImperador;
+Char PartidoPolitico;
