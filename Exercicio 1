@@ -1,4 +1,4 @@
-public class ControleEstoque {
+public class DeclararVariavel {
     public static void main(String[] args) {
 String ImpostodeRenda = "No money";
 int BlazeDinheiroFacil = 1000;
