@@ -5,5 +5,10 @@ Int BlazeDinheiroFacil;
 Double NumeroMegaSena;
 String VoltaBrunaAssMas;
 Int AnosSolteiro;
-String AdrianoImperador;
+String HarryPotter;
 Char PartidoPolitico;
+Double HorasJogadas;
+String UtorrentOficial;
+Int JogosPlatinados;
+}
+}
