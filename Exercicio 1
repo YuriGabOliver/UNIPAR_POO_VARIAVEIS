@@ -1,4 +1,4 @@
-public class ControleEstoque {
+public class DeclararVarivel {
     public static void main(String[] args) {
 String ImpostodeRenda;
 Int BlazeDinheiroFacil;
