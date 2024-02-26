@@ -1,14 +1,26 @@
-public class DeclararVarivel {
+public class ControleEstoque {
     public static void main(String[] args) {
-String ImpostodeRenda;
-Int BlazeDinheiroFacil;
-Double NumeroMegaSena;
-String VoltaBrunaAssMas;
-Int AnosSolteiro;
-String HarryPotter;
-Char PartidoPolitico;
-Double HorasJogadas;
-String UtorrentOficial;
-Int JogosPlatinados;
+String ImpostodeRenda = "No money";
+int BlazeDinheiroFacil = 1000;
+Double NumeroMegaSena = 303540450026.00;
+String VoltaBrunaAssMas = "Tadinho do Gabriel";
+int AnosSolteiro = 2;
+String HarryPotter = "Leviosa";
+Double PopoVsBambam = 36.06;
+Double HorasJogadas = 2300.92;
+String UtorrentOficial = "link";
+int JogosPlatinados = 4;
+
+System.out.println("RESPOSTAS:");
+System.out.println(ImpostodeRenda);
+System.out.println(BlazeDinheiroFacil);
+System.out.println(NumeroMegaSena);
+System.out.println(VoltaBrunaAssMas);
+System.out.println(AnosSolteiro);
+System.out.println(HarryPotter);
+System.out.println(PopoVsBambam);
+System.out.println(HorasJogadas);
+System.out.println(UtorrentOficial);
+System.out.print(JogosPlatinados);
 }
 }
