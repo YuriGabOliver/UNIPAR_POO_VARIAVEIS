@@ -1,0 +1,35 @@
+Para resolver o problema do Scanner, é necessário adicionar mais duas linhas de system.out.pritln, pois a versão anterior possuia apenas um,
+fazendo com que os scanners peso e nome estavam sem o gatilho para serem validados, causando erro.
+
+ "System.out.println("Informe seus dados:  ");
+        idade = scanner.nextInt();
+        peso = scanner.nextDouble();
+        nome = scanner.nextLine();"
+
+RESPOSTA:
+import java.util.Scanner;
+
+class Teste{
+    public static void main(String[] args) {
+        
+        String nome = "";
+        int idade = 0;
+        double peso = 0.0;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe seu Nome: ");
+        nome = scanner.nextLine();
+        System.out.println("Informe sua Idade: ");
+        idade = scanner.nextInt();
+        System.out.println("Informe seu Peso: ");
+        peso = scanner.nextDouble();
+        
+        
+        scanner.close();
+        
+        System.out.println("Nome "+ nome);
+        System.out.println("Idade "+ idade);
+        System.out.println("Peso "+ peso);
+    }
+}
