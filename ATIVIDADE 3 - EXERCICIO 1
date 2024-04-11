@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FazerMedia {
+public class FazerSoma {
     public static void main(String[] args){
         
         Scanner soma = new Scanner (System.in);
