@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+        
+        Scanner soma = new Scanner (System.in);
+        
+        System.out.print("Informe o primeiro valor: ");
+        int N1 = soma.nextInt();
+        System.out.print("Informe o segundo valor: ");
+        int N2 = soma.nextInt();
+        System.out.print("Informe o terceiro valor: ");
+        int N3 = soma.nextInt();
+        
+        soma.close();
+        System.out.println("O valor e: " + (N1+N2+N3) );
+
+    }
+}
