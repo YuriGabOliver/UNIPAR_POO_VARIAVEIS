@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Substracao {
+    public static void main(String[] args){
+        
+        Scanner menos = new Scanner (System.in);
+        
+        System.out.print("Informe o primeiro valor: ");
+        int N1 = menos.nextInt();
+        System.out.print("Informe o segundo valor: ");
+        int N2 = menos.nextInt();
+     
+        menos.close();
+        System.out.println("O valor e: " + (N1-N2) );
+
+    }
+}
