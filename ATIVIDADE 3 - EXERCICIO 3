@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class FazerMedia {
+    public static void main(String[] args){
+
+        Scanner scanner= new Scanner(System.in);
+        
+        System.out.print("Valor 1: ");
+        Double Nota1 = scanner.nextDouble();
+        System.out.print("Valor 2: ");
+        Double Nota2 = scanner.nextDouble();
+
+        scanner.close();
+        System.out.println("Media final: " + (Nota1 + Nota2)/2);
+
+
+    }
+}
