@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Verificador {
+    public static void main(String[] args){
+String User = "usuario";
+String Pass = "senha123";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Insira seu login: ");
+       String Log = scanner.nextLine();
+       System.out.print("Insira sua Senha: ");
+       String Senha = scanner.nextLine();
+        scanner.close();
+   if(Log.equals(User) && Senha.equals(Pass)){
+        System.out.println("Seja Bem Vindo(a)!");
+   }else{ 
+       System.out.println("Usuario ou senha incorretos!");
+   }
+    }
+}
