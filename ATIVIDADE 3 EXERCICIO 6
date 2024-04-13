@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Mercado {
+    public static void main(String[] args){
+
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Insira o nome do Produto: ");
+        String Nome = scanner.nextLine();
+        System.out.print("Insira o valor do produto: ");
+        Double Nota1 = scanner.nextDouble();
+        System.out.print("Insira o valor do desconto: ");
+        Double Nota2 = scanner.nextDouble();
+        scanner.close();
+        Double NotaFinal = Nota1*(Nota2/100);
+       
+    System.out.print("O novo valor do produto sera: "); 
+ System.out.print(Nome);
+    System.out.print(Nota1-NotaFinal);
+        
+        
+    }
+}
