@@ -1,0 +1,32 @@
+class Carro {
+    
+    String placa;
+    String marca;
+    String cor;
+    int tanque;
+    int porta;
+    int pneu;
+}
+
+public class CarroTeste {
+
+    public static void main(String[] args) {
+
+        Carro carro = new Carro();
+        carro.placa = "YG0L1OV";
+        carro.marca = "Chevrolet";
+        carro.cor = "Prata";
+        carro.tanque=  60;
+        carro.porta =  4;
+        carro.pneu= 4;
+
+        System.out.println("Placa: " + carro.placa);
+        System.out.println("Marca: " + carro.marca);
+        System.out.println("Cor: " + carro.cor);
+        System.out.println("Tanque: " + carro.tanque);
+        System.out.println("Portas: " + carro.porta);
+        System.out.println("Pneu: " + carro.pneu);
+
+    }
+
+}
