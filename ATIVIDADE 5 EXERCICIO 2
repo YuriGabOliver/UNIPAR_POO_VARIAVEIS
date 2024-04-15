@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class MusicaPato {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int patos;
+        int n;
+
+        System.out.print("Informe o número de patos: ");
+        n = scanner.nextInt();
+
+        for (patos = n; patos > 0; patos--) {
+            System.out.println(patos + " Patinhos foram passear. Além das montanhas para brincar. A mamãe gritou: Quá, quá, quá, quá." +
+                    " Mas só " + (patos - 1) + " patinhos voltaram de lá.");
+        }
+        System.out.println();
+        System.out.println("A mamãe patinha foi procurar. Além das montanhas na beira do mar. A mamãe gritou: Quá, quá, quá,quá." +
+                " E os " + n + " patinhos voltaram de lá");
+
+
+    }
+}
