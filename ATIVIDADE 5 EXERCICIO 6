@@ -43,7 +43,7 @@ public class Banco {
                     System.out.print("Quanto deseja sacar? ");
                     int sacar = sc.nextInt();
                     System.out.println("Você acaba de sacar " + sacar + " R$ na sua conta!");
-                    cb.depositar = (cb.depositar - sacar11);
+                    cb.depositar = (cb.depositar - sacar);
                     System.out.println();
                     break;
 
