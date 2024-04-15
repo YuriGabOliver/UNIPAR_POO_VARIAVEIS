@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class IdadeCalculo {
+
+public static void main(String[] args) {
+
+    int ano, mes, dia, nasdia, nasmes, nasano;
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite o dia do seu nascimento: ");
+    nasdia = scanner.nextInt();
+System.out.print("Digite o mês do seu nascimento: ");
+nasmes = scanner.nextInt();
+System.out.print("Digite o ano do seu nascimento: ");
+nasano = scanner.nextInt();
+System.out.print("Informe o dia de Hoje: ");
+dia = scanner.nextInt();
+System.out.print("Informe o mês: ");
+mes = scanner.nextInt();
+System.out.print("Informe o ano: ");
+ano = scanner.nextInt();
+scanner.close();
+double CalcAno = ((ano - nasano)  * 365.25);
+double CalcMes = ((mes - nasmes)*30.4375);
+double CalcDias = (dia - nasdia);
+double Total = CalcAno + CalcMes + CalcDias;
+System.out.println("Voce viveu " + Total + " Dias.");
+}
+}
